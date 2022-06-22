@@ -1,0 +1,18 @@
+struct Sample begin
+    int a, b
+end
+
+void func(int p, int q) begin
+    struct Sample sam;
+    sam.a = p
+    sam.b = q
+    display(sam.a + sam.b)
+end
+
+main() begin
+    int x,y;
+    struct Sample s
+    x = 2
+    y = 5
+    func(x,y)
+end
